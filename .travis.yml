@@ -5,8 +5,7 @@ node_js:
   - "4.2.1"
 jdk:
   - oraclejdk8
-before_install: 
-  - rm /home/travis/.npm/4a5c1cea-s-npm-minimist-1-2-0-package-tgz.lock
+before_install: npm install -g grunt-cli
 install:
   - java -version
   - mvn --version
