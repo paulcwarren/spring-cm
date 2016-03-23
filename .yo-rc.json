@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "spring_cm",
+    "packageName": "org.springframework.cm",
+    "packageFolder": "org/springframework/cm",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "83cbb657ed69e5255fef1463e96f7b9a98380d0d",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
