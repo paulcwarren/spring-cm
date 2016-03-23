@@ -9,7 +9,10 @@ before_install: npm install -g grunt-cli
 install:
   - java -version
   - mvn --version
+  - npm install -g npm@3
   - npm install -g bower
   - npm install -g grunt-cli
-  - npm install -g npm@3
+  - npm install 
   - mvn clean package
+script:
+  - grunt test
